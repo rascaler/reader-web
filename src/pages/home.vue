@@ -5,6 +5,10 @@
   .bk-swipe {
     width: 100%;
   }
+  p {
+    margin: 0px;
+    text-align: center;
+  }
 </style>
 <template>
   <div class="home">
@@ -106,22 +110,107 @@
         </mu-flexbox>
       </mu-flexbox-item>
     </mu-flexbox>
-    <mu-flexbox style="margin-top: 10px;">
+    <mu-flexbox style="margin-top: 10px;" orient="vertical">
       <mu-flexbox-item>
         <span style="color:red;">| </span>排行榜
       </mu-flexbox-item>
       <mu-flexbox-item>
-        <div style="display: block;overflow-x: scroll;width: 100%;">
-          <img src="../../static/images/paihangbang_1.jpg">
-          <img src="../../static/images/paihangbang_2.jpg">
-          <img src="../../static/images/paihangbang_3.jpg">
-          <img src="../../static/images/paihangbang_4.jpg">
-          <img src="../../static/images/paihangbang_5.jpg">
-          <img src="../../static/images/paihangbang_6.jpg">
-          <img src="../../static/images/paihangbang_7.jpg">
-          <img src="../../static/images/paihangbang_8.jpg">
-          <img src="../../static/images/paihangbang_9.jpg">
-        </div>
+        <ul style="white-space: nowrap;overflow-x: auto;margin: 0px;padding: 0px;">
+          <li style="display: inline-block;list-style: none;width: 100px;height: 125px;">
+            <a href="https://www.baidu.com" style="color: #333;text-decoration: none;outline: none;">
+              <img src="../../static/images/paihangbang_1.jpg" style="width: 100%;">
+              <p>书名</p>
+              <p>作者</p>
+            </a>
+          </li>
+          <li style="display: inline-block;list-style: none;width: 100px;height: 125px;">
+            <img src="../../static/images/paihangbang_2.jpg" style="width: 100%;">
+            <p>书名</p>
+            <p>作者</p>
+          </li>
+          <li style="display: inline-block;list-style: none;width: 100px;height: 125px;">
+            <img src="../../static/images/paihangbang_3.jpg" style="width: 100%;">
+            <p>书名</p>
+            <p>作者</p>
+          </li>
+          <li style="display: inline-block;list-style: none;width: 100px;height: 125px;">
+            <img src="../../static/images/paihangbang_4.jpg" style="width: 100%;">
+            <p>书名</p>
+            <p>作者</p>
+          </li>
+          <li style="display: inline-block;list-style: none;width: 100px;height: 125px;">
+            <img src="../../static/images/paihangbang_5.jpg" style="width: 100%;">
+            <p>书名</p>
+            <p>作者</p>
+          </li>
+          <li style="display: inline-block;list-style: none;width: 100px;height: 125px;">
+            <img src="../../static/images/paihangbang_6.jpg" style="width: 100%;">
+            <p>书名</p>
+            <p>作者</p>
+          </li>
+          <li style="display: inline-block;list-style: none;width: 100px;height: 125px;">
+            <img src="../../static/images/paihangbang_7.jpg" style="width: 100%;">
+            <p>书名</p>
+            <p>作者</p>
+          </li>
+          <li style="display: inline-block;list-style: none;width: 100px;height: 125px;">
+            <img src="../../static/images/paihangbang_8.jpg" style="width: 100%;">
+            <p>书名</p>
+            <p>作者</p>
+          </li>
+        </ul>
+      </mu-flexbox-item>
+    </mu-flexbox>
+
+    <mu-flexbox style="margin-top: 10px;" orient="vertical">
+      <mu-flexbox-item>
+        <span style="color:red;">| </span>热门小说
+      </mu-flexbox-item>
+      <mu-flexbox-item>
+        <ul style="white-space: nowrap;overflow-x: auto;margin: 0px;padding: 0px;">
+          <li style="display: inline-block;list-style: none;width: 100px;height: 125px;">
+            <a href="https://www.baidu.com" style="color: #333;text-decoration: none;outline: none;">
+              <img src="../../static/images/paihangbang_1.jpg" style="width: 100%;">
+              <p>书名</p>
+              <p>作者</p>
+            </a>
+          </li>
+          <li style="display: inline-block;list-style: none;width: 100px;height: 125px;">
+            <img src="../../static/images/paihangbang_2.jpg" style="width: 100%;">
+            <p>书名</p>
+            <p>作者</p>
+          </li>
+          <li style="display: inline-block;list-style: none;width: 100px;height: 125px;">
+            <img src="../../static/images/paihangbang_3.jpg" style="width: 100%;">
+            <p>书名</p>
+            <p>作者</p>
+          </li>
+          <li style="display: inline-block;list-style: none;width: 100px;height: 125px;">
+            <img src="../../static/images/paihangbang_4.jpg" style="width: 100%;">
+            <p>书名</p>
+            <p>作者</p>
+          </li>
+          <li style="display: inline-block;list-style: none;width: 100px;height: 125px;">
+            <img src="../../static/images/paihangbang_5.jpg" style="width: 100%;">
+            <p>书名</p>
+            <p>作者</p>
+          </li>
+          <li style="display: inline-block;list-style: none;width: 100px;height: 125px;">
+            <img src="../../static/images/paihangbang_6.jpg" style="width: 100%;">
+            <p>书名</p>
+            <p>作者</p>
+          </li>
+          <li style="display: inline-block;list-style: none;width: 100px;height: 125px;">
+            <img src="../../static/images/paihangbang_7.jpg" style="width: 100%;">
+            <p>书名</p>
+            <p>作者</p>
+          </li>
+          <li style="display: inline-block;list-style: none;width: 100px;height: 125px;">
+            <img src="../../static/images/paihangbang_8.jpg" style="width: 100%;">
+            <p>书名</p>
+            <p>作者</p>
+          </li>
+        </ul>
       </mu-flexbox-item>
     </mu-flexbox>
   </div>
